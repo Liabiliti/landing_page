@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 10px 150px;
+    color: white;
+}
+.Logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+/*First Container*/
+.Top{
+    display: flex;
+    padding: 75px 150px;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    background-color: grey;
+}
+.Top .Info, .Main-Image{
+    flex: 1;
+}
+.Text{
+    margin: 5px 0px;
+    font-size: 14px;
+}
+.Top .Title{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+.Sign-up{
+    padding: 5px 20px;
+    font-size: 12px;
+    color: white;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    flex-shrink: 0;
+    max-width: 83px;
+}
+
+/*Second Container*/
+.Random-Information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Header2{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cards{
+
+    padding: 0px 10vw;
+    margin-bottom: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Image-Info{
+    display: flex;
+    flex-direction: column;
+}
+
+.Image-Info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.Image{
+    border: 2px solid lightskyblue;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+}
+.Image-Info .Text{
+    width: 125px;
+    height: auto;
+}
+
+/*Quote*/
+.Quote{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 200px;
+    background-color: lightgray;
+}
+
+.Quote .Text{
+    font-size: 27px;
+    font-style: italic;
+}
+
+.Quote .Author
+{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/*Last*/
+.Last
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 150px;
+    padding: 25px 55px;
+    background-color: lightskyblue;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.Last .Info{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-grow: 2;
+}
+
+.Last .Sign-up{
+    flex-grow: 1;
+    flex-shrink: 0;
+    border: white 1px solid;
+}
+
+.Footer{
+    display: flex;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: darkslategrey;
+}
+
+
+
+
